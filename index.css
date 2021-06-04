@@ -1,0 +1,11 @@
+@import url(./src/vendor/normalize.css);
+@import url(./src/vendor/fonts/fonts.css);
+
+@import url(./src/blocks/root/root.css);
+@import url(./src/blocks/header/header.css);
+@import url(./src/blocks/first-screen/first-screen.css);
+@import url(./src/blocks/about/about.css);
+@import url(./src/blocks/popular/popular.css);
+@import url(./src/blocks/elite/elite.css);
+@import url(./src/blocks/news/news.css);
+@import url(./src/blocks/tags/tags.css);

@@ -1,0 +1,103 @@
+.header {
+  padding: 0;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  width: 115px;
+  height: 30px;
+
+}
+
+.header__menu_additional {
+  list-style: none;
+  margin: 0;
+}
+
+.header__menu-item_additional {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #9EB6B6;
+  padding-right: 20px;
+}
+
+.header__menu-item {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FAFAFA;
+  padding-right: 20px;
+
+}
+
+.header__menu-item_additional:last-child{
+  padding-right: 0;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+}
+
+
+.header__up {
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: #1E282D solid 1px;
+  padding: 15px 70px;
+}
+
+.header__down {
+  padding: 0 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__buttons {
+  display: flex;
+}
+
+.header__button {
+  background-color: #054B4B;
+  border-radius: 2px;
+  border: 0;
+  height: 28px;
+  margin-left: 15px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FAFAFA;
+}
+
+.header__button:last-child {
+  margin-left: 10px;
+}
+
+.header__button-telegram {
+  background-image: url(../../img/telegram-icon.svg);
+  width: 28px;
+}
+
+.header__button-whatsapp {
+  background-image: url(../../img/whatsapp-icon.svg);
+  width: 28px;
+}
+
+.header__menu {
+  padding: 20px 0;
+  list-style: none;
+  margin: 0;
+}
+
+.header__phone {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FAFAFA;
+}

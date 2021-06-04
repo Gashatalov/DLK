@@ -1,0 +1,41 @@
+.tags {
+  padding: 0 112px 33px 70px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.tags__title {
+  color: #B9BCBE;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  padding: 0 30px 15px 0;
+}
+
+.tags__list {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -7px;
+}
+
+.tags__container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+
+.tags-item {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #2F3B41;
+  color: #fafafa ;
+  font-size: 13px;
+  line-height: 24px;
+  padding: 0 7px;
+  margin: 7px; 
+}

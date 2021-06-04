@@ -1,0 +1,30 @@
+.root {  
+  margin: 0 auto;
+  background-color: #2F3B41;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.root__dark {
+  background-color: #1E282D;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.flex__container {
+  display: flex;
+}
+
+.text__bold {
+  font-weight: 700;
+}
+
+.text__weight600 {
+  font-weight: 600;
+}
+
+.text__weight400 {
+  font-weight: 400;
+}
+
+.text__weight300 {
+  font-weight: 300;
+}

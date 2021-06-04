@@ -1,0 +1,113 @@
+.about {
+  padding: 94px 70px 0;
+  margin: 0 auto;
+  max-width: 1440px;
+
+}
+
+.about__grid-container {
+  display: grid;
+  grid-template-columns: 25% 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  
+  grid-template-areas:
+    "title decription img"
+    ". advantages advantages";
+  
+}
+
+.about__title { 
+  grid-area: title;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FAFAFA;
+  margin: 0;
+}
+
+.about__decription { 
+  grid-area: decription; 
+  max-width: 411px; 
+}
+
+.about__img { 
+  grid-area: img; 
+  display: block;
+  width: 100%;
+  max-width: 410px;  
+  justify-self: end;  
+}
+
+.about__decription-header {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 22px;
+  color: #FAFAFA;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.about__decription-text {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 22px;
+  color: #B9BCBE;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.about__decription-link {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 22px;
+  color: #E2B359;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+}
+
+.about__decription-link-img {
+  height: 9px;
+  width: 9px;
+  margin-right: 9px;
+}
+
+
+.about__advantages { 
+  grid-area: advantages; 
+  list-style: none;
+  margin: 0;
+  padding: 100px 0;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(302px, 1fr));
+  align-items: baseline;
+}
+
+
+.about__advantages-item {
+  width: 100%;
+  height: 130px;
+  background-color: #434B50;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.about__advantages-title {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FAFAFA;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.about__advantages-text {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 22px;
+  color: #FAFAFA;
+  margin: 0;
+}
