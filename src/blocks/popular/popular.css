@@ -34,8 +34,12 @@
   font-size: 12px;
   line-height: 14px;
   color: #E2B359; 
-  justify-self: end;
-  
+  justify-self: end;  
+}
+
+.popular__question:hover {
+  color: #9EB6B6;
+  cursor: pointer;
 }
 
 .popular__filter { 
@@ -59,6 +63,11 @@
   margin-right: 15px;
 }
 
+.popular__filter-button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
 .popular__filter-button:last-child {
   margin-right: 0;
 }
@@ -76,7 +85,6 @@
   margin: 0; 
 }
 
-
 .popular__arrows { 
   grid-area: arrows;
   justify-self: end;
@@ -84,21 +92,30 @@
 
 .popular__arrows_left {
   width: 64px;
-  background-image: url(../../img/arrow-left.svg);
   background-color: transparent;
   padding: 0;
   border: 0;
   height: 12px;
+  fill: #B9BCBE;
+}
+.popular__arrows_left:hover {
+  fill: #E2B359;
+  cursor: pointer;
 }
 
 .popular__arrows_right {
   width: 64px;
-  background-image: url(../../img/arrow-right.svg);
   background-color: transparent;
   padding: 0;
   border: 0;
   height: 12px;
   margin-left: 30px;
+  fill: #B9BCBE;
+}
+
+.popular__arrows_right:hover {
+  fill: #E2B359;
+  cursor: pointer;
 }
 
 .popular__cards-list { 
@@ -159,9 +176,10 @@
 
 .popular__card-icon {
   display: flex;
-  width: 107px;
+
   align-items: center;
   height: 40px;
+  margin-right: 30px;
 }
 
 .popular__card-icon_inactive {

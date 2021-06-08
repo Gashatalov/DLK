@@ -1,0 +1,140 @@
+.footer {
+  padding: 55px 70px 35px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  grid-template-areas:
+    "logo nav_additional form"
+    "phone email form"
+    "address opening-hours form"
+    "nav nav .";
+}
+
+.footer__logo { 
+  grid-area: logo;
+}
+
+.footer__nav_additional { 
+  grid-area: nav_additional; 
+  margin-left: -280px;
+  padding-top: 8px;
+}
+
+.footer__nav-item {
+  color: #B9BCBE;
+
+}
+
+.footer__nav-item:hover {
+  color: #FAFAFA;
+  cursor: pointer;
+}
+
+.footer__nav { 
+  grid-area: nav; 
+  margin: 0;
+  padding: 0;
+}
+
+.footer__phone { 
+  grid-area: phone; 
+}
+
+.footer__address { 
+  grid-area: address; 
+}
+
+.footer__email { 
+  grid-area: email; 
+}
+
+.footer__title {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 0 10px;
+  color: #B9BCBE;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 16px;
+
+}
+
+.footer__opening-hours {
+  grid-area: opening-hours; 
+  list-style: none;
+}
+
+.footer__copyright {
+  margin-top: 64px;
+  border-top: 1px #1E282D solid;
+  justify-content: space-between; 
+}
+
+.footer__form {
+  grid-area: form; 
+  padding: 30px 30px 0;
+  background-color: #434B50;
+  width: 412px;
+  display: flex;
+  flex-direction: column;
+  margin: 0; 
+}
+
+.footer__input {
+  font-size: 12px;
+  color: #B9BCBE;
+  line-height: 15px;
+  height: 45px;
+  background: #1E282D;
+  border: 1px solid #2F3B41;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 100%;
+  margin-bottom: 7px;
+  padding-left: 20px;
+}
+
+.footer__button {
+  width: 412px;
+  top: 20px;
+  position: relative;
+  margin: 0;
+}
+
+.footer__textarea {
+  background: #1E282D;
+  border: 1px solid #2F3B41;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 100%;
+  height: 70px;
+  resize: vertical;
+  color: #B9BCBE;
+  font-size: 12px;
+  line-height: 15px; 
+  padding: 15px 0 0 20px;
+}
+
+.footer__text {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 22px;
+  font-style: normal;
+  font-size: 13px;
+  color: #FAFAFA;
+}
+
+.footer__copyright-text {
+  color: #B9BCBE;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 0;
+  padding: 16px 0 0; 
+  text-decoration: none;
+}

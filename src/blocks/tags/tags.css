@@ -39,3 +39,8 @@
   padding: 0 7px;
   margin: 7px; 
 }
+
+.tags-item:hover {
+  background-color: #1E282D;
+  cursor: pointer;
+}

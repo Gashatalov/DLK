@@ -13,6 +13,7 @@
 .header__menu_additional {
   list-style: none;
   margin: 0;
+  padding-left: 30px;
 }
 
 .header__menu-item_additional {
@@ -22,6 +23,12 @@
   line-height: 16px;
   color: #9EB6B6;
   padding-right: 20px;
+  text-decoration: none;
+}
+
+.header__menu-item_additional:hover {
+  color: #FAFAFA;
+  cursor: pointer;
 }
 
 .header__menu-item {
@@ -31,7 +38,12 @@
   line-height: 16px;
   color: #FAFAFA;
   padding-right: 20px;
+  text-decoration: none;
+}
 
+.header__menu-item:hover {
+  color: #9EB6B6;
+  cursor: pointer;
 }
 
 .header__menu-item_additional:last-child{
@@ -42,7 +54,6 @@
   display: flex;
   align-items: center;
 }
-
 
 .header__up {
   align-items: center;
@@ -74,17 +85,26 @@
   color: #FAFAFA;
 }
 
+.header__button:hover {
+  background-color: #146565;
+  cursor: pointer;
+}
+
 .header__button:last-child {
   margin-left: 10px;
 }
 
 .header__button-telegram {
   background-image: url(../../img/telegram-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   width: 28px;
 }
 
 .header__button-whatsapp {
   background-image: url(../../img/whatsapp-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   width: 28px;
 }
 
@@ -100,4 +120,10 @@
   font-size: 13px;
   line-height: 16px;
   color: #FAFAFA;
+  text-decoration: none;
+}
+
+.header__phone:hover {
+  color: #E2B359;
+  cursor: pointer;
 }

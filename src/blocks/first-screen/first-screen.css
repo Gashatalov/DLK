@@ -1,14 +1,12 @@
 .first-screen {
   background-image: url(../../img/bg-image.svg);
   background-size: 100%;
-  max-width: 100%;
-  
+  max-width: 100%;  
   background-repeat: no-repeat;
   flex-direction: column;
   padding-top: 154px;
-  padding-left: 181px;
 
- 
+  padding: 154px 0 106px 181px;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -21,4 +19,62 @@
   color: #FAFAFA;
   max-width: 460px;
   margin: 0;
+  padding-bottom: 34px;
 }
+
+.first-screen__filter {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  border-radius: 2px;
+ 
+
+}
+
+.first-screen__filter-item {
+  border-right: 1px solid #9EB6B6;
+  background: #FAFAFA;
+  border-radius: 2px;
+  height: 62px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 30px;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #1E282D;
+}
+
+.first-screen__filter-item:last-child {
+  flex-basis: 200%;
+}
+
+.first-screen__filter-item:first-child {
+  flex-basis: 120%;
+}
+
+
+.first-screen__filter-item:hover {
+  background: #E4E5E5;
+  cursor: pointer;
+}
+
+.first-screen__tab-item {
+  padding: 0 24px;
+}
+
+.first-screen__button {
+  display: block;
+  margin-left: auto;
+  margin-top: 15px;
+}
+
+.first-screen__filter-container {
+  max-width: 1078px;
+}
+
+
+
