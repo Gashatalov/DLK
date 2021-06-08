@@ -38,6 +38,10 @@
   border-radius: 2px;
 }
 
+.elite__img:hover {
+  cursor: pointer;
+}
+
 .elite__description {
   grid-area: description;
   display: flex;
@@ -85,6 +89,12 @@ line-height: 17px;
   line-height: 140%;
   color: #FAFAFA;
   margin: 0; 
+  text-decoration: none;
+}
+
+.elite__description-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .elite__text {
